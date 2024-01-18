@@ -7,3 +7,148 @@
 body{
     background-image: url("assets/img/sfondo.png");
 }
+
+.margin-top{
+    margin-top: 1.5em;
+}
+
+/*HEADER*/
+
+
+header{
+    width: 80%;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+    padding: 16px;
+}
+
+header img{
+    width: 60%;
+    margin-top: 5%;
+}
+
+header h6{
+    margin-top: 2em;
+}
+
+header ul{
+    margin-top: 1em;
+    list-style-type: none;
+}
+
+/* MAIN*/
+main{
+    width: 80%;
+    background-color: rgb(224, 159, 159);
+    margin: auto;
+    padding: 16px;
+    margin-top: 1em;
+    font-size: smaller;
+}
+
+/*SECTION MAIN 1*/
+
+main section h1{
+    font-size: x-large;
+}
+
+main section p{
+    margin-top: 1.5em;
+}
+
+main section ul{
+    margin-top: 1.5em;
+}
+
+main section ul li{
+    margin-left: 2em;
+}
+
+main section p span{
+    color: purple;
+}
+
+main section ul li span{
+    background-color: rgb(204, 204, 204);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+main section ol{
+    margin-top: 1.5em;
+}
+
+main section ol li{
+    margin-left: 2em;
+}
+
+/* MAIN SECTION TABLE*/
+
+main section table{
+    border-collapse: collapse;
+}
+
+.TableCellsColor{
+    background-color: rgb(235, 235, 235);
+}
+
+main section table thead tr td{
+    background-color: blue;
+    height: 3em;
+    width: 4em;
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+main section table thead tr td:last-child{
+    border: none;
+}
+
+main section table tbody tr td{
+    height: 2em;
+    width: 4em;
+    text-align: center;
+}
+
+main section table tbody tr{
+    border-bottom: 1px solid grey;
+}
+
+main section table tbody tr:last-child{
+    border-bottom: 1px solid blue;
+}
+
+/* main section video*/
+
+main section iframe{
+    width: 100%;
+    border-radius: 1.5em;
+}
+
+/*main article*/
+
+main article div{
+    background-color: rgb(204, 204, 204);
+}
+
+main article div:first-child{
+    text-align: center;
+    padding: 0px 0.5em 0px 0.5em;
+}
+
+main article div h1{
+    padding: 0.8em 0px 1em 0px;
+}
+
+main article div p{
+    padding-bottom: 1.5em;
+}
+
+main article div input{
+    margin-bottom: 1.5em;
+}
+
+main article div input:last-child{
+    background-color: blue;
+}

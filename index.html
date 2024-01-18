@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,300,0,-25"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="assets/css/">
     <title>Document</title>
   </head>
   <body>
     <header>
       <img src="assets/img/logo.svg" alt="" />
-      <h3>EPICODE - IL BLOG DEI DEVELOPERS</h3>
+      <h6>EPICODE - IL BLOG DEI DEVELOPERS</h6>
       <ul>
         <li>&#8658; HOME &#8656;</li>
         <li>&#8658; ARTICOLI &#8656;</li>
@@ -25,8 +23,8 @@
       <section>
         <h1>Come creare un template per i post</h1>
         <p>
-          <i class="material-symbols-outlined">edit</i> di Mario Rossi -
-          <i class="material-symbols-outlined">schedule</i> pubblicato il 25-10-2020
+          <i class="material-symbols-outlined"> edit </i> di Mario Rossi -
+          <i class="material-symbols-outlined"> schedule </i> pubblicato il 25-10-2020
         </p>
       </section>
       <section>
@@ -35,11 +33,11 @@
           applicare a tutte le pagine
         </p>
         <p>Le varie aree ssaranno quindi suddivise in:</p>
-        <ol>
+        <ul>
           <li>Contenuti di intestazione del tag <span>&#60;header&#62;</span></li>
           <li>Contenuti centrali variabili del tag <span>&#60;header&#62;</span> (corpo principale)</li>
           <li>Contenuti de fine pagina comuni, da inserire nel tag <span>&#60;header&#62;</span></li>
-        </ol>
+        </ul>
         <p>
           Formattazione del codice <br />Il testo dell'articolo dovrà essere formattato per identificare tutte le parti
           da <span>selezionare con i CSS</span>. Perciò i passi saranno:
@@ -51,7 +49,7 @@
         </ol>
         <p>L'applicazione di stili Css è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
       </section>
-      <section>
+      <section class="margin-top">
         <table>
           <caption>
             Diffusione dei CSS
@@ -69,7 +67,7 @@
               <td>20%</td>
               <td>17%</td>
             </tr>
-            <tr>
+            <tr class="TableCellsColor">
               <td>2002</td>
               <td>35%</td>
               <td>22%</td>
@@ -79,7 +77,7 @@
               <td>45%</td>
               <td>42%</td>
             </tr>
-            <tr>
+            <tr class="TableCellsColor">
               <td>2008</td>
               <td>80%</td>
               <td>51%</td>
@@ -98,7 +96,7 @@
           volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri developers come
           loro:
         </p>
-        <iframe
+        <iframe class="margin-top"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/aBSZVeBRvDY?si=Bfu5-xqSaE5AVC1O"
@@ -109,33 +107,36 @@
         ></iframe>
       </section>
       <article>
-        <div>
+        <div class="margin-top">
           <h1>NOVITà</h1>
           <p>Vuoi rimanere aggiornato su altre novità del blog? Iscribiti alla nostra newsletter</p>
-          <input type="email" name="" id="">
-          <input type="submit" name="" id="">
+          <input type="email" name="" id="" />
+          <input type="submit" name="" id="" />
         </div>
         <h1>ARTICOLI CORRELATI</h1>
         <div>
           <a href="#">Validare il codice HTML</a>
-          <h5><i class="material-symbols-outlined">sell</i>Categoria: develop</h5>
-          <p><i class="material-symbols-outlined">calendar_month</i>Data: 18-9-2020</p>
+          <h5><span class="material-symbols-outlined"> sell </span>Categoria: develop</h5>
+          <p><span class="material-symbols-outlined"> calendar_month </span>Data: 18-9-2020</p>
         </div>
         <div>
           <a href="#">Correggere la sintassi</a>
-          <h5><i class="material-symbols-outlined">sell</i>Categoria: develop</h5>
-          <p><i class="material-symbols-outlined">calendar_month</i>Data: 16-9-2020</p>
+          <h5><span class="material-symbols-outlined"> sell </span>Categoria: develop</h5>
+          <p><span class="material-symbols-outlined"> calendar_month </span>Data: 16-9-2020</p>
         </div>
         <div>
           <a href="#">Meno kb nella pagina</a>
-          <h5><i class="material-symbols-outlined">sell</i>Categoria: ottimizzazione</h5>
-          <p><i class="material-symbols-outlined">calendar_month</i>Data: 30-9-2020</p>
+          <h5><span class="material-symbols-outlined"> sell </span>Categoria: ottimizzazione</h5>
+          <p><span class="material-symbols-outlined"> calendar_month </span>Data: 30-9-2020</p>
         </div>
       </article>
     </main>
     <footer>
       <p>Blog Epicode &#169;2021</p>
-      <p>Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="#">info@epicode@school</a></p>
+      <p>
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+        <a href="#">info@epicode@school</a>
+      </p>
     </footer>
   </body>
 </html>
